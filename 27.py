@@ -24,3 +24,12 @@ class Solution(object):
         #are not equal to val
         
         return insertIndex + 1
+    
+    #Time complexity analysis:
+    # The time complexity of this algorithm is O(n) because we are going to iterate
+    # over the array only once
+    
+    #Space complexity analysis:
+    # The space complexity of this algorithm is O(1) because we are not using any
+    # extra space, we are only using the space of the input array and some constant
+    # space variables as pointers
